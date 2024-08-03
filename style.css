@@ -1,29 +1,29 @@
-body{
+body {
   background-color: black;
   margin: 0;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   background-size: fit;
 }
 
-h1{
+h1 {
   color: white;
-  margin:0;
+  margin: 0;
   margin-bottom: 40px;
   font-size: 60px;
-  text-shadow: 0 4px 10px rgba(0,0,0,.8);
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
   font-weight: bold;
 }
 
-h2{
+h2 {
   color: white;
-  margin:0;
+  margin: 0;
   font-size: 20px;
-  text-shadow: 0 4px 10px rgba(0,0,0,.8);
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
 }
 
-svg{
+svg {
   width: 10vw;
-  fill :rgb(220,102,0);
+  fill: rgb(220, 102, 0);
   padding: 5px;
 }
 
@@ -35,7 +35,7 @@ form {
   flex-direction: column;
 }
 
-input[type="text"]{
+input[type="text"] {
   border: none;
   outline: none;
   box-sizing: border-box;
@@ -46,12 +46,12 @@ input[type="text"]{
   border-radius: 3vw;
 }
 
-input[type="submit"]{
+input[type="submit"] {
   height: 40px;
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: rgb(220,102,0);
+  background-color: rgb(220, 102, 0);
   padding: 10px 20px;
   font-size: 16px;
   color: white;
@@ -59,7 +59,7 @@ input[type="submit"]{
   border-radius: 3vw;
 }
 
-input[type="password"]{
+input[type="password"] {
   border: none;
   outline: none;
   box-sizing: border-box;
@@ -71,7 +71,7 @@ input[type="password"]{
   border-radius: 3vw;
 }
 
-.form-container{
+.form-container {
   width: 100vw;
   height: 100vh;
   position: absolute;
@@ -84,7 +84,7 @@ input[type="password"]{
   z-index: 10001;
 }
 
-.style-box{
+.style-box {
   height: 55vh;
   width: 40vw;
   position: absolute;
@@ -92,18 +92,18 @@ input[type="password"]{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255,255,255,.4);
-  border-radius:5vw;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 5vw;
 }
 
-.parallax-container{
+.parallax-container {
   width: 100vw;
   height: 100vh;
   position: relative;
   overflow: hidden;
 }
 
-.parallax-item{
+.parallax-item {
   position: absolute;
   top: 10%;
   left: 10%;
@@ -111,10 +111,11 @@ input[type="password"]{
   height: 250px;
 }
 
-.leaf{
+.leaf {
   width: 100%;
   height: 100%;
-  background: url(https://i.ibb.co/nmfDTVf/Autumn-Leaf3.png) center center no-repeat;
+  background: url(https://i.ibb.co/nmfDTVf/Autumn-Leaf3.png) center center
+    no-repeat;
   background-size: contain;
 }
 
