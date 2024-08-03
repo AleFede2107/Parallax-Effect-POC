@@ -1,0 +1,125 @@
+body{
+  background-color: black;
+  margin: 0;
+  font-family: 'Open Sans';
+  background-size: fit;
+}
+
+h1{
+  color: white;
+  margin:0;
+  margin-bottom: 40px;
+  font-size: 60px;
+  text-shadow: 0 4px 10px rgba(0,0,0,.8);
+  font-weight: bold;
+}
+
+h2{
+  color: white;
+  margin:0;
+  font-size: 20px;
+  text-shadow: 0 4px 10px rgba(0,0,0,.8);
+}
+
+svg{
+  width: 10vw;
+  fill :rgb(220,102,0);
+  padding: 5px;
+}
+
+form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input[type="text"]{
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  height: 40px;
+  font-size: 16px;
+  color: black;
+  border-radius: 3vw;
+}
+
+input[type="submit"]{
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: rgb(220,102,0);
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  border-radius: 3vw;
+}
+
+input[type="password"]{
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  height: 40px;
+  font-size: 16px;
+  color: black;
+  margin: 20px;
+  border-radius: 3vw;
+}
+
+.form-container{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 10001;
+}
+
+.style-box{
+  height: 55vh;
+  width: 40vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255,255,255,.4);
+  border-radius:5vw;
+}
+
+.parallax-container{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax-item{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 250px;
+  height: 250px;
+}
+
+.leaf{
+  width: 100%;
+  height: 100%;
+  background: url(https://i.ibb.co/nmfDTVf/Autumn-Leaf3.png) center center no-repeat;
+  background-size: contain;
+}
+
+/*
+Light greens: B6D4AA, 9CC099
+Dark greens: 0C3F33, 186750, 247552
+Pink: FFC6E5
+*/
